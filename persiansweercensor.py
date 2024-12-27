@@ -35,3 +35,4 @@ def censor_text(input_text):
         input_text = input_text.replace(word, censored_word)
 
     return input_text
+
