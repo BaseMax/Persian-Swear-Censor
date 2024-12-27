@@ -15,7 +15,7 @@ def load_and_sort_words(file_path):
 
 def censor_text(input_text):
     """Replace offensive words in the input text with asterisks."""
-    file_path = "words/persian.txt"
+    file_path = "words/persian.txt" # TODO: Adding english.txt as well
     try:
         sorted_words = load_and_sort_words(file_path)
     except (FileNotFoundError, IOError) as e:
